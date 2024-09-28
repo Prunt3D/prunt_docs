@@ -1,0 +1,65 @@
+# Hugo configuration file
+title: Prunt Motion Controller
+
+# import hextra as module
+module:
+  imports:
+  - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/Prunt3D"
+      params:
+        icon: github
+    - name: Discord
+      weight: 6
+      url: "https://discord.gg/vXmEEMVxJW"
+      params:
+        icon: discord
+    - name: Etsy
+      weight: 7
+      url: "https://www.etsy.com/au/people/ef9wc2gv3i1ctmx6"
+      params:
+        icon: shopping-cart
+
+
+params:
+  page:
+    width: wide
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      dark: images/logo.png
+      link: /
+      width: 40
+      height: 20
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/Prunt3D/prunt_docs/edit/master/content"
