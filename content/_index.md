@@ -24,7 +24,7 @@ We also sell our own hardware with features not present on most consumer 3D prin
 - PT1000 support without jumpers.
 
 {{< cards >}}
-  {{< card link="docs/overview" title="Docs" >}}
+  {{< card link="docs/features" title="Docs" >}}
   {{< card link="docs/gcode_reference" title="G-Code Reference" >}}
   {{< card link="https://discord.gg/vXmEEMVxJW" title="Discord" >}}
   {{< card link="https://github.com/Prunt3D" title="GitHub" >}}
