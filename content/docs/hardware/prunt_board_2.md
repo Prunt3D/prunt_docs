@@ -6,7 +6,7 @@ type: docs
 {{% include "images/prunt_board_2_line_art.md" %}}
 
 ## Features
-- 6× TMC2240 stepper drivers, capable of all running at 3A with minimal airflow.
+- 6× TMC2240 stepper drivers, all capable of running at 3A with minimal airflow.
 - 2× 20A heater outputs.
 - 4× fan outputs, supporting up to 2A 4-pin fans or 500mA 2-pin fans.
 - 4× thermistor inputs supporting PT1000 and most common NTC thermistors.
@@ -17,8 +17,8 @@ type: docs
 - Protection against electrical shorts to 24V on most exposed pins.
 - Hardware generated step generation at up to 2.54MHz (limited by TMC2240) with 128 velocity levels updated at 20kHz.
 - Fail-safe firmware updates, eliminating the need to ever install a jumper.
-- Hardware counters for high speed fan tachometers.
-- Soft-start to allow a wider range of power supplies.
+- Hardware counters for high-speed fan tachometers.
+- Soft-start, allowing for a wider range of power supplies.
 
 ## Size and Connectors
 {{% include "images/prunt_board_2_size.md" %}}
