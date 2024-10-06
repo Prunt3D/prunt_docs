@@ -248,3 +248,12 @@ Adjust the recovery settings used by G11.
 |-----------|-------|---------------------------------------------------------------------|
 | [F]       | Float | Additional feedrate in mm/min. Not modified if not specified.       |
 | [E]       | Float | Additional E axis recovery distance. Not modified if not specified. |
+
+## M486: Ignored
+
+Ignored command provided for slicer compatibility.
+
+| Parameter | Type  | Description |
+|-----------|-------|-------------|
+| [S]       | Float | Ignored.    |
+| [T]       | Float | Ignored.    |
