@@ -46,8 +46,8 @@ type: docs
 - Overvoltage on a 4-6V pin will cause all other 4-6V pins to rise to the applied voltage but will not cause damage to the board itself.
 - Power and ground pins are otherwise protected, pay careful attention to the pinout to ensure that the power pins are not shorted to ground.
 - Total current draw must be limited to 500mA.
-- Negative-going threshold voltage: 1.4V
-- Positive-going threshold voltage: 3.4V
+- Minimum negative-going threshold voltage: 1.4V
+- Maximum positive-going threshold voltage: 3.4V
 - Hysteresis: 0.5-1.1V
 
 ### ADC Inputs
@@ -65,8 +65,8 @@ type: docs
 - 3 pin fans are not supported unless they are not driven by the PWM pin or the tachometer pin is left disconnected.
 - The board contains jumper pins for pulling each PWM pin to 4-6V for obscure fans that may require this.
 - Each tachometer pin is pulled high by a 4.7kΩ resistor with a series diode.
-- Tachometer negative-going threshold voltage: 1.4V
-- Tachometer positive-going threshold voltage: 3.4V
+- Tachometer minimum negative-going threshold voltage: 1.4V
+- Tachometer maximum positive-going threshold voltage: 3.4V
 - Tachometer hysteresis: 0.5-1.1V
 
 ### Heaters
